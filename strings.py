@@ -47,5 +47,11 @@ txt = f"My name is hyo, I am  {age}"
 print(txt)
 
 price = 59
-txt = f"The price is {price:.2f} dollars"
+txt = f"The price is {price:.2f} dollars" # 소수점 2째자리 까지 보여줌
 print(txt)
+
+
+def myFunc() :
+    return True
+
+print(myFunc())
