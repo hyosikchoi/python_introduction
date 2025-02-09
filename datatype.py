@@ -39,8 +39,13 @@ x = True
 # bytes
 x = b"Hello"
 print(x)
+
 # bytearray
 x = bytearray(5)
 print(x)
+
 # memoryview
 x = memoryview(bytes(5))
+
+# NoneType
+x = None

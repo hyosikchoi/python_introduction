@@ -34,6 +34,9 @@ print(x)
 print(y)
 print(z)
 
+
+# Global variables
+
 x = "awesome"
 
 def myfunc():

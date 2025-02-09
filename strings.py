@@ -51,7 +51,3 @@ txt = f"The price is {price:.2f} dollars" # 소수점 2째자리 까지 보여�
 print(txt)
 
 
-def myFunc() :
-    return True
-
-print(myFunc())
