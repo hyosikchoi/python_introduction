@@ -17,3 +17,14 @@ def my_function(**kid):
   print("His last name is " + kid["lname"])
 
 my_function(fname = "Tobias", lname = "Refsnes")
+
+
+def print_info(**kwargs):
+  for key, value in kwargs.items():
+    print(f"{key} : {value}")
+
+print_info(name = "Eve" , age = 32 , city = "Seoul")
+
+info = {"name": "Karina" , "age" : "25" , "city" : "Seoul"}
+
+print_info(**info)
